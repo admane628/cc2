@@ -28,7 +28,6 @@ urlpatterns = [
     path('delete/<int:collec_id>/' , views.delete , name='delete'),
     path('change/<int:collec_id>/' , views.change , name='change'),
     path('element/<int:id>/' , views.element , name='element') ,
-    path('element/<int:id>/' , views.element , name='element') ,
     path('element/edit/<int:id>/' , views.element_edit , name='element_edit') ,
 
 ]

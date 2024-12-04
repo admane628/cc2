@@ -6,7 +6,9 @@
     <p>Date : {{collectionInexistant.date}}</p>
     <p>Description :{{collectionInexistant.description}}</p>
 
-    <table  class="" border="1">
+    <a href="">Ajouter un élement</a>
+
+    <table  class="">
         <thead>
             <tr>
                 <th>Titre</th>
@@ -16,6 +18,7 @@
                 <th>Date</th>
                 <th>Lien</th>
                 <th>Modifier</th>
+                <th>Supprimer</th>
 
             </tr>
         </thead>
@@ -29,10 +32,24 @@
               <td>{{ elm.date }}</td>
               <td><a href="{% url 'element' elm.id %}">Voir l'élément</a></td>
               <td><a href="{% url 'element_edit' elm.id %}">Modifier</a></td>
+              <td><a href="">Supprimer</a></td>
 
           </tr>
           {% endfor %}
         </tbody>
     </table>
+
+<style>
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+</style>
 
 {% endblock %}
