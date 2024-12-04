@@ -1,0 +1,1387 @@
+[
+    {
+        "model": "collec_management.collec",
+        "pk": 1,
+        "fields": {
+        "title": "Application !",
+        "description": "projet framework test",
+        "date": "2024-10-28T15:13:04.310Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 2,
+        "fields": {
+        "title": "Appli",
+        "description": "projet f2ramework test",
+        "date": "2024-10-28T15:16:59.145Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 3,
+        "fields": {
+        "title": "Collection de livres",
+        "description": "Une collection de romans classiques et contemporains.",
+        "date": "2024-10-28T15:46:04.680Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 4,
+        "fields": {
+        "title": "Collection de timbres",
+        "description": "Des timbres rares de différents pays et époques.",
+        "date": "2024-10-28T15:46:05.003Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 5,
+        "fields": {
+        "title": "Collection de monnaies",
+        "description": "Des pièces de monnaie de divers pays et périodes historiques.",
+        "date": "2024-10-28T15:46:05.064Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 6,
+        "fields": {
+        "title": "Collection d'art contemporain",
+        "description": "Des œuvres d'artistes contemporains célèbres.",
+        "date": "2024-10-28T15:46:05.145Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 7,
+        "fields": {
+        "title": "Collection de cartes postales",
+        "description": "Des cartes postales vintage de différents endroits du monde.",
+        "date": "2024-10-28T15:46:05.212Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 8,
+        "fields": {
+        "title": "Collection de bandes dessinées",
+        "description": "Des BD de divers auteurs et genres.",
+        "date": "2024-10-28T15:46:05.297Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 9,
+        "fields": {
+        "title": "Collection de photographies anciennes",
+        "description": "Des photographies du XIXe siècle et du début du XXe siècle.",
+        "date": "2024-10-28T15:46:05.397Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 10,
+        "fields": {
+        "title": "Collection de vinyles",
+        "description": "Des vinyles rares de musique classique et rock.",
+        "date": "2024-10-28T15:46:05.556Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 11,
+        "fields": {
+        "title": "Collection de figurines",
+        "description": "Des figurines de collection de films et séries populaires.",
+        "date": "2024-10-28T15:46:05.698Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 12,
+        "fields": {
+        "title": "Collection de pierres précieuses",
+        "description": "Des pierres précieuses et semi-précieuses de différents endroits.",
+        "date": "2024-10-28T15:46:05.923Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 13,
+        "fields": {
+        "title": "Collection de jeux vidéo rétro",
+        "description": "Des jeux vidéo des années 80 et 90.",
+        "date": "2024-10-28T15:46:06.059Z"
+        }
+    },
+    {
+        "model": "collec_management.collec",
+        "pk": 14,
+        "fields": {
+        "title": "Collection de maquettes",
+        "description": "Des maquettes d'avions, de voitures et de bateaux.",
+        "date": "2024-10-28T15:46:34.448Z"
+        }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 1,
+    "fields": {
+        "title": "Les Misérables",
+        "description": "Édition originale de Victor Hugo, publiée en 1862.",
+        "value": 200.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 3
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 2,
+    "fields": {
+        "title": "Pride and Prejudice",
+        "description": "Édition de luxe de Jane Austen avec une couverture en cuir.",
+        "value": 150.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 3
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 3,
+    "fields": {
+        "title": "To Kill a Mockingbird",
+        "description": "Édition signée par Harper Lee.",
+        "value": 500.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 3
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 4,
+    "fields": {
+        "title": "1984",
+        "description": "Première édition américaine de George Orwell.",
+        "value": 300.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 3
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 5,
+    "fields": {
+        "title": "One Hundred Years of Solitude",
+        "description": "Édition spéciale de Gabriel García Márquez avec des illustrations originales.",
+        "value": 400.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 3
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 6,
+    "fields": {
+        "title": "Timbre Penny Black",
+        "description": "Premier timbre postal émis au monde, Royaume-Uni, 1840.",
+        "value": 1000.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 4
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 7,
+    "fields": {
+        "title": "Timbre Bluenose",
+        "description": "Timbre canadien émis en 1929, représentant le Bluenose.",
+        "value": 300.0,
+        "quantity": 2,
+        "date": "2024-11-01",
+        "collection": 4
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 8,
+    "fields": {
+        "title": "Timbre Zeppelin",
+        "description": "Timbre américain commémorant les zeppelins, émis en 1930.",
+        "value": 500.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 4
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 9,
+    "fields": {
+        "title": "Timbre Inverted Jenny",
+        "description": "Timbre rare américain avec une erreur d'impression.",
+        "value": 10000.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 4
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 10,
+    "fields": {
+        "title": "Timbres de la Révolution Française",
+        "description": "Série complète de timbres français de 1789 à 1799.",
+        "value": 800.0,
+        "quantity": 3,
+        "date": "2024-11-01",
+        "collection": 4
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 11,
+    "fields": {
+        "title": "Pièce d'or Napoléon III",
+        "description": "Pièce d'or française de 20 francs, datée de 1855.",
+        "value": 700.0,
+        "quantity": 2,
+        "date": "2024-11-01",
+        "collection": 5
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 12,
+    "fields": {
+        "title": "Dollar Morgan",
+        "description": "Pièce d'argent américaine frappée en 1881.",
+        "value": 200.0,
+        "quantity": 3,
+        "date": "2024-11-01",
+        "collection": 5
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 13,
+    "fields": {
+        "title": "Pièce romaine en or",
+        "description": "Pièce en or de l'Empire romain, datant du IIe siècle.",
+        "value": 5000.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 5
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 14,
+    "fields": {
+        "title": "Monnaie de la Révolution américaine",
+        "description": "Pièce en argent frappée en 1776.",
+        "value": 1500.0,
+        "quantity": 1,
+        "date": "2024-11-01",
+        "collection": 5
+    }
+    },
+    {
+    "model": "collec_management.element",
+    "pk": 15,
+    "fields": {
+        "title": "Monnaie commémorative des JO",
+        "description": "Pièce en argent commémorant les Jeux Olympiques de 1936.",
+        "value": 300.0,
+        "quantity": 5,
+        "date": "2024-11-01",
+        "collection": 5
+    }
+    },
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 16,
+    
+    "fields": {
+    
+        "title": "Peinture abstraite",
+    
+        "description": "Une peinture abstraite de couleurs vives et dynamiques.",
+    
+        "value": 5000.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 6
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 17,
+    
+    "fields": {
+    
+        "title": "Sculpture moderne",
+    
+        "description": "Une sculpture en métal créée par un artiste renommé.",
+    
+        "value": 7500.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 6
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 18,
+    
+    "fields": {
+    
+        "title": "Photographie d'art",
+    
+        "description": "Une photographie artistique encadrée.",
+    
+        "value": 1200.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 6
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 19,
+    
+    "fields": {
+    
+        "title": "Installation lumineuse",
+    
+        "description": "Une œuvre contemporaine utilisant des lumières LED.",
+    
+        "value": 3000.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 6
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 20,
+    
+    "fields": {
+    
+        "title": "Série de lithographies",
+    
+        "description": "Un ensemble de lithographies numérotées et signées.",
+    
+        "value": 2500.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 6
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 21,
+    
+    "fields": {
+    
+        "title": "Carte postale vintage - Paris",
+    
+        "description": "Une carte postale ancienne représentant la tour Eiffel.",
+    
+        "value": 15.0,
+    
+        "quantity": 5,
+    
+        "date": "2024-11-03",
+    
+        "collection": 7
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 22,
+    
+    "fields": {
+    
+        "title": "Carte postale vintage - New York",
+    
+        "description": "Une carte postale ancienne de l'Empire State Building.",
+    
+        "value": 20.0,
+    
+        "quantity": 3,
+    
+        "date": "2024-11-03",
+    
+        "collection": 7
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 23,
+    
+    "fields": {
+    
+        "title": "Carte postale vintage - Tokyo",
+    
+        "description": "Une carte postale illustrée de Tokyo.",
+    
+        "value": 25.0,
+    
+        "quantity": 4,
+    
+        "date": "2024-11-03",
+    
+        "collection": 7
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 24,
+    
+    "fields": {
+    
+        "title": "Carte postale vintage - Londres",
+    
+        "description": "Une carte postale représentant le Big Ben.",
+    
+        "value": 30.0,
+    
+        "quantity": 2,
+    
+        "date": "2024-11-03",
+    
+        "collection": 7
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 25,
+    
+    "fields": {
+    
+        "title": "Carte postale vintage - Rome",
+    
+        "description": "Une carte postale du Colisée.",
+    
+        "value": 25.0,
+    
+        "quantity": 3,
+    
+        "date": "2024-11-03",
+    
+        "collection": 7
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 26,
+    
+    "fields": {
+    
+        "title": "BD - Aventures de Tintin",
+    
+        "description": "Un album de Tintin en édition originale.",
+    
+        "value": 200.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 8
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 27,
+    
+    "fields": {
+    
+        "title": "BD - Astérix le Gaulois",
+    
+        "description": "Un exemplaire rare du premier album d'Astérix.",
+    
+        "value": 250.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 8
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 28,
+    
+    "fields": {
+    
+        "title": "BD - Spirou et Fantasio",
+    
+        "description": "Une édition collector de Spirou et Fantasio.",
+    
+        "value": 180.0,
+    
+        "quantity": 2,
+    
+        "date": "2024-11-03",
+    
+        "collection": 8
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 29,
+    
+    "fields": {
+    
+        "title": "BD - Garfield",
+    
+        "description": "Un album humoristique de Garfield.",
+    
+        "value": 50.0,
+    
+        "quantity": 3,
+    
+        "date": "2024-11-03",
+    
+        "collection": 8
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 30,
+    
+    "fields": {
+    
+        "title": "BD - Black & Mortimer",
+    
+        "description": "Une édition spéciale de Black & Mortimer.",
+    
+        "value": 150.0,
+    
+        "quantity": 2,
+    
+        "date": "2024-11-03",
+    
+        "collection": 8
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 31,
+    
+    "fields": {
+    
+        "title": "Photo ancienne - Famille victorienne",
+    
+        "description": "Une photo d'une famille du XIXe siècle.",
+    
+        "value": 300.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 9
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 32,
+    
+    "fields": {
+    
+        "title": "Photo ancienne - Scène de rue",
+    
+        "description": "Une photo capturant une rue animée en 1900.",
+    
+        "value": 350.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 9
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 33,
+    
+    "fields": {
+    
+        "title": "Photo ancienne - Portrait",
+    
+        "description": "Un portrait classique des années 1890.",
+    
+        "value": 400.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 9
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 34,
+    
+    "fields": {
+    
+        "title": "Photo ancienne - Paysage champêtre",
+    
+        "description": "Un paysage bucolique photographié au début du XXe siècle.",
+    
+        "value": 250.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 9
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 35,
+    
+    "fields": {
+    
+        "title": "Photo ancienne - Gare ferroviaire",
+    
+        "description": "Une gare animée photographiée vers 1910.",
+    
+        "value": 275.0,
+    
+        "quantity": 1,
+    
+        "date": "2024-11-03",
+    
+        "collection": 9
+    
+    }
+    
+    },
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 36,
+    
+    "fields": {
+    
+        "title": "Pierre Précieuse 1",
+    
+        "description": "Pierre précieuse de haute qualité numéro 1.",
+    
+        "date": "2024-10-28T16:00:00.000Z",
+    
+        "value": 5000,
+    
+        "quantity": 1,
+    
+        "collection": 12
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 37,
+    
+    "fields": {
+    
+        "title": "Pierre Précieuse 2",
+    
+        "description": "Pierre précieuse de haute qualité numéro 2.",
+    
+        "date": "2024-10-28T16:01:00.000Z",
+    
+        "value": 4500,
+    
+        "quantity": 2,
+    
+        "collection": 12
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 38,
+    
+    "fields": {
+    
+        "title": "Pierre Précieuse 3",
+    
+        "description": "Pierre précieuse de haute qualité numéro 3.",
+    
+        "date": "2024-10-28T16:02:00.000Z",
+    
+        "value": 4000,
+    
+        "quantity": 3,
+    
+        "collection": 12
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 39,
+    
+    "fields": {
+    
+        "title": "Pierre Précieuse 4",
+    
+        "description": "Pierre précieuse de haute qualité numéro 4.",
+    
+        "date": "2024-10-28T16:03:00.000Z",
+    
+        "value": 3500,
+    
+        "quantity": 4,
+    
+        "collection": 12
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 40,
+    
+    "fields": {
+    
+        "title": "Pierre Précieuse 5",
+    
+        "description": "Pierre précieuse de haute qualité numéro 5.",
+    
+        "date": "2024-10-28T16:04:00.000Z",
+    
+        "value": 3000,
+    
+        "quantity": 5,
+    
+        "collection": 12
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 41,
+    
+    "fields": {
+    
+        "title": "Jeu Vidéo Rétro 1",
+    
+        "description": "Jeu vidéo des années 80 numéro 1.",
+    
+        "date": "2024-10-28T16:05:00.000Z",
+    
+        "value": 200,
+    
+        "quantity": 1,
+    
+        "collection": 13
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 42,
+    
+    "fields": {
+    
+        "title": "Jeu Vidéo Rétro 2",
+    
+        "description": "Jeu vidéo des années 90 numéro 2.",
+    
+        "date": "2024-10-28T16:06:00.000Z",
+    
+        "value": 250,
+    
+        "quantity": 1,
+    
+        "collection": 13
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 43,
+    
+    "fields": {
+    
+        "title": "Jeu Vidéo Rétro 3",
+    
+        "description": "Jeu vidéo des années 80 numéro 3.",
+    
+        "date": "2024-10-28T16:07:00.000Z",
+    
+        "value": 180,
+    
+        "quantity": 2,
+    
+        "collection": 13
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 44,
+    
+    "fields": {
+    
+        "title": "Jeu Vidéo Rétro 4",
+    
+        "description": "Jeu vidéo des années 90 numéro 4.",
+    
+        "date": "2024-10-28T16:08:00.000Z",
+    
+        "value": 300,
+    
+        "quantity": 1,
+    
+        "collection": 13
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 45,
+    
+    "fields": {
+    
+        "title": "Jeu Vidéo Rétro 5",
+    
+        "description": "Jeu vidéo des années 80 numéro 5.",
+    
+        "date": "2024-10-28T16:09:00.000Z",
+    
+        "value": 220,
+    
+        "quantity": 3,
+    
+        "collection": 13
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 46,
+    
+    "fields": {
+    
+        "title": "Maquette de Collection 1",
+    
+        "description": "Maquette détaillée d'un avion numéro 1.",
+    
+        "date": "2024-10-28T16:10:00.000Z",
+    
+        "value": 1000,
+    
+        "quantity": 1,
+    
+        "collection": 14
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 47,
+    
+    "fields": {
+    
+        "title": "Maquette de Collection 2",
+    
+        "description": "Maquette détaillée d'une voiture numéro 2.",
+    
+        "date": "2024-10-28T16:11:00.000Z",
+    
+        "value": 1200,
+    
+        "quantity": 1,
+    
+        "collection": 14
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 48,
+    
+    "fields": {
+    
+        "title": "Maquette de Collection 3",
+    
+        "description": "Maquette détaillée d'un bateau numéro 3.",
+    
+        "date": "2024-10-28T16:12:00.000Z",
+    
+        "value": 900,
+    
+        "quantity": 2,
+    
+        "collection": 14
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 49,
+    
+    "fields": {
+    
+        "title": "Maquette de Collection 4",
+    
+        "description": "Maquette détaillée d'une moto numéro 4.",
+    
+        "date": "2024-10-28T16:13:00.000Z",
+    
+        "value": 1100,
+    
+        "quantity": 1,
+    
+        "collection": 14
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 50,
+    
+    "fields": {
+    
+        "title": "Maquette de Collection 5",
+    
+        "description": "Maquette détaillée d'un train numéro 5.",
+    
+        "date": "2024-10-28T16:14:00.000Z",
+    
+        "value": 1300,
+    
+        "quantity": 1,
+    
+        "collection": 14
+    
+    }
+    
+    },
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 51,
+    
+    "fields": {
+    
+        "title": "Vinyle Rare 1",
+    
+        "description": "Vinyle classique et rock numéro 1.",
+    
+        "date": "2024-10-28T16:15:00.000Z",
+    
+        "value": 100,
+    
+        "quantity": 1,
+    
+        "collection": 10
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 52,
+    
+    "fields": {
+    
+        "title": "Vinyle Rare 2",
+    
+        "description": "Vinyle classique et rock numéro 2.",
+    
+        "date": "2024-10-28T16:16:00.000Z",
+    
+        "value": 120,
+    
+        "quantity": 2,
+    
+        "collection": 10
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 53,
+    
+    "fields": {
+    
+        "title": "Vinyle Rare 3",
+    
+        "description": "Vinyle classique et rock numéro 3.",
+    
+        "date": "2024-10-28T16:17:00.000Z",
+    
+        "value": 150,
+    
+        "quantity": 3,
+    
+        "collection": 10
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 54,
+    
+    "fields": {
+    
+        "title": "Vinyle Rare 4",
+    
+        "description": "Vinyle classique et rock numéro 4.",
+    
+        "date": "2024-10-28T16:18:00.000Z",
+    
+        "value": 180,
+    
+        "quantity": 4,
+    
+        "collection": 10
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 55,
+    
+    "fields": {
+    
+        "title": "Vinyle Rare 5",
+    
+        "description": "Vinyle classique et rock numéro 5.",
+    
+        "date": "2024-10-28T16:19:00.000Z",
+    
+        "value": 200,
+    
+        "quantity": 5,
+    
+        "collection": 10
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 56,
+    
+    "fields": {
+    
+        "title": "Figurine Populaire 1",
+    
+        "description": "Figurine inspirée de films et séries numéro 1.",
+    
+        "date": "2024-10-28T16:20:00.000Z",
+    
+        "value": 50,
+    
+        "quantity": 10,
+    
+        "collection": 11
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 57,
+    
+    "fields": {
+    
+        "title": "Figurine Populaire 2",
+    
+        "description": "Figurine inspirée de films et séries numéro 2.",
+    
+        "date": "2024-10-28T16:21:00.000Z",
+    
+        "value": 60,
+    
+        "quantity": 8,
+    
+        "collection": 11
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 58,
+    
+    "fields": {
+    
+        "title": "Figurine Populaire 3",
+    
+        "description": "Figurine inspirée de films et séries numéro 3.",
+    
+        "date": "2024-10-28T16:22:00.000Z",
+    
+        "value": 70,
+    
+        "quantity": 6,
+    
+        "collection": 11
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 59,
+    
+    "fields": {
+    
+        "title": "Figurine Populaire 4",
+    
+        "description": "Figurine inspirée de films et séries numéro 4.",
+    
+        "date": "2024-10-28T16:23:00.000Z",
+    
+        "value": 80,
+    
+        "quantity": 4,
+    
+        "collection": 11
+    
+    }
+    
+    },
+    
+    {
+    
+    "model": "collec_management.element",
+    
+    "pk": 60,
+    
+    "fields": {
+    
+        "title": "Figurine Populaire 5",
+    
+        "description": "Figurine inspirée de films et séries numéro 5.",
+    
+        "date": "2024-10-28T16:24:00.000Z",
+    
+        "value": 90,
+    
+        "quantity": 2,
+    
+        "collection": 11
+    
+    }
+    
+    }
+    
+    ]
+    

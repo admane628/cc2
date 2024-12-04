@@ -1,0 +1,10 @@
+{% extends 'collec_management/menu.html' %}
+{% load django_bootstrap5 %}
+{% block title%} Vous êtes sûr de modifier cette collection{% endblock %}
+{% block content%}
+    <form method="post">
+        {% csrf_token %}
+        {% bootstrap_form form layout=layout size=size%}
+        {% bootstrap_button button_type="submit" content="modifier" %}
+    </form>
+{% endblock %}

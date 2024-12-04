@@ -1,0 +1,38 @@
+{% extends "collec_management/menu.html" %}
+{% load django_bootstrap5 %}
+    {% block title %} {{collectionInexistant.title}} {% endblock %}
+
+{% block content %}
+    <p>Date : {{collectionInexistant.date}}</p>
+    <p>Description :{{collectionInexistant.description}}</p>
+
+    <table  class="" border="1">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Description</th>
+                <th>Value</th>
+                <th>Quantity</th>
+                <th>Date</th>
+                <th>Lien</th>
+                <th>Modifier</th>
+
+            </tr>
+        </thead>
+        <tbody>
+          {% for elm in elements %}
+          <tr>
+              <td>{{ elm.title }}</td>
+              <td>{{ elm.description }}</td>
+              <td>{{ elm.value }}</td>
+              <td>{{ elm.quantity }}</td>
+              <td>{{ elm.date }}</td>
+              <td><a href="{% url 'element' elm.id %}">Voir l'élément</a></td>
+              <td><a href="{% url 'element_edit' elm.id %}">Modifier</a></td>
+
+          </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

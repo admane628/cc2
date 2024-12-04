@@ -1,0 +1,31 @@
+{% extends "collec_management/menu.html" %}
+{% load django_bootstrap5 %}
+
+{% block title %}La liste de collections{% endblock %}
+{% block content %}
+    <table  class="" border="1">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Suppression</th>
+                <th>Modifier</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            {% for collec in collections %}
+            <tr>
+                <td>{{ collec.title }}</td>
+                <td>{{ collec.date }}</td>
+                <td><a href="{% url 'collection' collec.id %}">Voir la fiche</a></td>
+                <td><a href="{% url 'delete' collec.id %}">Supprimer</a></td>
+                <td><a href="{% url 'change' collec.id %}">Modifier</a></td>
+
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+{% endblock%}

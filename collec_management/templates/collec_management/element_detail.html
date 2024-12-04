@@ -1,0 +1,13 @@
+{% extends "collec_management/menu.html" %}
+{% load django_bootstrap5 %}
+    {% block title %} {{elm.title}} {% endblock %}
+
+{% block content %}
+    <p>Date : {{elm.date}}</p>
+    <p>Collection : <a href="{% url 'collection' elm.collection.id %}">{{elm.collection.title}}</a></p>
+    
+    <p>Description :{{elm.description}}</p>
+    <p>Valeur : {{elm.value}}</p>
+    <p>Quantité : {{elm.quantity}}</p>
+
+{% endblock %}

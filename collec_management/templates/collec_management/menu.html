@@ -1,0 +1,22 @@
+{% extends 'collec_management/bootstrap5.html' %}
+{% load django_bootstrap5 %}
+
+{% block bootstrap5_content %}
+    <div class="container">
+        <h1>{% block title %}Bienvenue dans notre application{% endblock %}</h1>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'about' %}">&Agrave; propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'new' %}">nouveau</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'all' %}">les collections</a>
+            </li>
+
+        </ul>
+        {% autoescape off %}{% bootstrap_messages %}{% endautoescape %}
+        {% block content %}{% endblock %}
+    </div>
+{% endblock %}
