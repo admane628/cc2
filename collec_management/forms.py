@@ -10,12 +10,12 @@ class CollecForm(ModelForm) :
                     "description" : "Description"
                     }
 
-class ElmForm(ModelForm) :
+class ElementForm(ModelForm) :
      class Meta :
           model= Element
-          fields=["title" , "description", "value", "quantity" ]
+          fields=["title" , "description","value","quantity"]
           labels={"title" : "Titre" ,
-                  "description" : "Description",
-                  "value" : "Valeur" ,
-                  "quantity" : "Quantité",
+                    "description" : "Description" ,
+                    "quantity":"Quantite",
+                    "value" : "Valeur",
                     }

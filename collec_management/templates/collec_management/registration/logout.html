@@ -1,0 +1,11 @@
+{% extends "menu.html" %}
+
+{% block title %}Logout{% endblock %}
+
+{% block content %}
+<p>Voulez-vous vraiment de se deconecter?</p>
+<form action="{% url 'logout' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">Deconnecté</button>
+</form>
+{% endblock %}

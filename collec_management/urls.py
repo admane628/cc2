@@ -18,7 +18,7 @@ from django.urls import path
 
 from collec_management import admin
 from . import views
-
+from django.views.generic import TemplateView
 urlpatterns = [
     path('about/', views.about, name='about'),
     path('', views.menu, name='menu'),
@@ -27,7 +27,8 @@ urlpatterns = [
     path('all/', views.all, name='all'),
     path('delete/<int:collec_id>/' , views.delete , name='delete'),
     path('change/<int:collec_id>/' , views.change , name='change'),
+    path('element/delete/<int:element_id>/' , views.delete_element , name='delete_element'),
+    path ('element/add/' , views.add , name='add'),
     path('element/<int:id>/' , views.element , name='element') ,
     path('element/edit/<int:id>/' , views.element_edit , name='element_edit') ,
-
 ]

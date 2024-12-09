@@ -14,8 +14,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="{% url 'all' %}">les collections</a>
             </li>
-
         </ul>
+        {% if user.is_authenticated %}
+            Bienvenue {{ user.username }}!
+            <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Log Out</button>
+            </form>
+            {% else %}
+            <p>Vous etes pas connecter</p>
+            <a href="{% url 'login' %}">Log In</a>
+        {% endif %}
         {% autoescape off %}{% bootstrap_messages %}{% endautoescape %}
         {% block content %}{% endblock %}
     </div>
