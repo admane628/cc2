@@ -3,29 +3,55 @@
 
 {% block title %}La liste de collections{% endblock %}
 {% block content %}
-    <table  class="" border="1">
-        <thead>
-            <tr>
-                <th>Titre</th>
-                <th>Date</th>
-                <th>Description</th>
-                <th>Suppression</th>
-                <th>Modifier</th>
 
-            </tr>
-        </thead>
-        <tbody>
-            {% for collec in collections %}
-            <tr>
-                <td>{{ collec.title }}</td>
-                <td>{{ collec.date }}</td>
-                <td><a href="{% url 'collection' collec.id %}">Voir la fiche</a></td>
-                <td><a href="{% url 'delete' collec.id %}">Supprimer</a></td>
-                <td><a href="{% url 'change' collec.id %}">Modifier</a></td>
+    {% if collections %}
+      <table  class="" border="1">
+          <thead>
+              <tr>
+                  <th>Titre</th>
+                  <th>Date</th>
+                  {% if user.is_authenticated %}
+                  <th>Description</th>
+                  <th>Suppression</th>
+                  <th>Modifier</th>
+                    {% endif %}
+              </tr>
+          </thead>
+          <tbody>
+              {% for collec in collections %}
+              <tr>
+                  <td>{{ collec.title }}</td>
+                  <td>{{ collec.date }}</td>
+                  {% if user.is_authenticated %}
+                    {% if user == collec.created_by %}
 
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    
+                    <td><a href="{% url 'collection' collec.id %}">Voir la fiche</a></td>
+                    <td><a href="{% url 'delete' collec.id %}">Supprimer</a></td>
+                    <td><a href="{% url 'change' collec.id %}">Modifier</a></td>
+                    {% else %}
+                    <td colspan=3 style="text-align: center">Vous n'êtes pas l'auteur de cette collection</a></td>
+                    {% endif %}
+                  {% endif %}
+              </tr>
+              {% endfor %}
+          </tbody>
+      </table>
+    {% else %}
+
+      Il n'y a pas de collections.
+    {% endif %}
+
+    <style>
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+</style>
+
 {% endblock%}

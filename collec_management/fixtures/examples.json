@@ -306,1082 +306,1081 @@
     }
     },
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 16,
-    
+
     "fields": {
-    
+
         "title": "Peinture abstraite",
-    
+
         "description": "Une peinture abstraite de couleurs vives et dynamiques.",
-    
+
         "value": 5000.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 6
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 17,
-    
+
     "fields": {
-    
+
         "title": "Sculpture moderne",
-    
+
         "description": "Une sculpture en métal créée par un artiste renommé.",
-    
+
         "value": 7500.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 6
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 18,
-    
+
     "fields": {
-    
+
         "title": "Photographie d'art",
-    
+
         "description": "Une photographie artistique encadrée.",
-    
+
         "value": 1200.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 6
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 19,
-    
+
     "fields": {
-    
+
         "title": "Installation lumineuse",
-    
+
         "description": "Une œuvre contemporaine utilisant des lumières LED.",
-    
+
         "value": 3000.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 6
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 20,
-    
+
     "fields": {
-    
+
         "title": "Série de lithographies",
-    
+
         "description": "Un ensemble de lithographies numérotées et signées.",
-    
+
         "value": 2500.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 6
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 21,
-    
+
     "fields": {
-    
+
         "title": "Carte postale vintage - Paris",
-    
+
         "description": "Une carte postale ancienne représentant la tour Eiffel.",
-    
+
         "value": 15.0,
-    
+
         "quantity": 5,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 7
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 22,
-    
+
     "fields": {
-    
+
         "title": "Carte postale vintage - New York",
-    
+
         "description": "Une carte postale ancienne de l'Empire State Building.",
-    
+
         "value": 20.0,
-    
+
         "quantity": 3,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 7
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 23,
-    
+
     "fields": {
-    
+
         "title": "Carte postale vintage - Tokyo",
-    
+
         "description": "Une carte postale illustrée de Tokyo.",
-    
+
         "value": 25.0,
-    
+
         "quantity": 4,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 7
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 24,
-    
+
     "fields": {
-    
+
         "title": "Carte postale vintage - Londres",
-    
+
         "description": "Une carte postale représentant le Big Ben.",
-    
+
         "value": 30.0,
-    
+
         "quantity": 2,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 7
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 25,
-    
+
     "fields": {
-    
+
         "title": "Carte postale vintage - Rome",
-    
+
         "description": "Une carte postale du Colisée.",
-    
+
         "value": 25.0,
-    
+
         "quantity": 3,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 7
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 26,
-    
+
     "fields": {
-    
+
         "title": "BD - Aventures de Tintin",
-    
+
         "description": "Un album de Tintin en édition originale.",
-    
+
         "value": 200.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 8
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 27,
-    
+
     "fields": {
-    
+
         "title": "BD - Astérix le Gaulois",
-    
+
         "description": "Un exemplaire rare du premier album d'Astérix.",
-    
+
         "value": 250.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 8
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 28,
-    
+
     "fields": {
-    
+
         "title": "BD - Spirou et Fantasio",
-    
+
         "description": "Une édition collector de Spirou et Fantasio.",
-    
+
         "value": 180.0,
-    
+
         "quantity": 2,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 8
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 29,
-    
+
     "fields": {
-    
+
         "title": "BD - Garfield",
-    
+
         "description": "Un album humoristique de Garfield.",
-    
+
         "value": 50.0,
-    
+
         "quantity": 3,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 8
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 30,
-    
+
     "fields": {
-    
+
         "title": "BD - Black & Mortimer",
-    
+
         "description": "Une édition spéciale de Black & Mortimer.",
-    
+
         "value": 150.0,
-    
+
         "quantity": 2,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 8
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 31,
-    
+
     "fields": {
-    
+
         "title": "Photo ancienne - Famille victorienne",
-    
+
         "description": "Une photo d'une famille du XIXe siècle.",
-    
+
         "value": 300.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 9
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 32,
-    
+
     "fields": {
-    
+
         "title": "Photo ancienne - Scène de rue",
-    
+
         "description": "Une photo capturant une rue animée en 1900.",
-    
+
         "value": 350.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 9
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 33,
-    
+
     "fields": {
-    
+
         "title": "Photo ancienne - Portrait",
-    
+
         "description": "Un portrait classique des années 1890.",
-    
+
         "value": 400.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 9
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 34,
-    
+
     "fields": {
-    
+
         "title": "Photo ancienne - Paysage champêtre",
-    
+
         "description": "Un paysage bucolique photographié au début du XXe siècle.",
-    
+
         "value": 250.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 9
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 35,
-    
+
     "fields": {
-    
+
         "title": "Photo ancienne - Gare ferroviaire",
-    
+
         "description": "Une gare animée photographiée vers 1910.",
-    
+
         "value": 275.0,
-    
+
         "quantity": 1,
-    
+
         "date": "2024-11-03",
-    
+
         "collection": 9
-    
+
     }
-    
+
     },
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 36,
-    
+
     "fields": {
-    
+
         "title": "Pierre Précieuse 1",
-    
+
         "description": "Pierre précieuse de haute qualité numéro 1.",
-    
+
         "date": "2024-10-28T16:00:00.000Z",
-    
+
         "value": 5000,
-    
+
         "quantity": 1,
-    
+
         "collection": 12
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 37,
-    
+
     "fields": {
-    
+
         "title": "Pierre Précieuse 2",
-    
+
         "description": "Pierre précieuse de haute qualité numéro 2.",
-    
+
         "date": "2024-10-28T16:01:00.000Z",
-    
+
         "value": 4500,
-    
+
         "quantity": 2,
-    
+
         "collection": 12
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 38,
-    
+
     "fields": {
-    
+
         "title": "Pierre Précieuse 3",
-    
+
         "description": "Pierre précieuse de haute qualité numéro 3.",
-    
+
         "date": "2024-10-28T16:02:00.000Z",
-    
+
         "value": 4000,
-    
+
         "quantity": 3,
-    
+
         "collection": 12
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 39,
-    
+
     "fields": {
-    
+
         "title": "Pierre Précieuse 4",
-    
+
         "description": "Pierre précieuse de haute qualité numéro 4.",
-    
+
         "date": "2024-10-28T16:03:00.000Z",
-    
+
         "value": 3500,
-    
+
         "quantity": 4,
-    
+
         "collection": 12
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 40,
-    
+
     "fields": {
-    
+
         "title": "Pierre Précieuse 5",
-    
+
         "description": "Pierre précieuse de haute qualité numéro 5.",
-    
+
         "date": "2024-10-28T16:04:00.000Z",
-    
+
         "value": 3000,
-    
+
         "quantity": 5,
-    
+
         "collection": 12
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 41,
-    
+
     "fields": {
-    
+
         "title": "Jeu Vidéo Rétro 1",
-    
+
         "description": "Jeu vidéo des années 80 numéro 1.",
-    
+
         "date": "2024-10-28T16:05:00.000Z",
-    
+
         "value": 200,
-    
+
         "quantity": 1,
-    
+
         "collection": 13
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 42,
-    
+
     "fields": {
-    
+
         "title": "Jeu Vidéo Rétro 2",
-    
+
         "description": "Jeu vidéo des années 90 numéro 2.",
-    
+
         "date": "2024-10-28T16:06:00.000Z",
-    
+
         "value": 250,
-    
+
         "quantity": 1,
-    
+
         "collection": 13
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 43,
-    
+
     "fields": {
-    
+
         "title": "Jeu Vidéo Rétro 3",
-    
+
         "description": "Jeu vidéo des années 80 numéro 3.",
-    
+
         "date": "2024-10-28T16:07:00.000Z",
-    
+
         "value": 180,
-    
+
         "quantity": 2,
-    
+
         "collection": 13
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 44,
-    
+
     "fields": {
-    
+
         "title": "Jeu Vidéo Rétro 4",
-    
+
         "description": "Jeu vidéo des années 90 numéro 4.",
-    
+
         "date": "2024-10-28T16:08:00.000Z",
-    
+
         "value": 300,
-    
+
         "quantity": 1,
-    
+
         "collection": 13
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 45,
-    
+
     "fields": {
-    
+
         "title": "Jeu Vidéo Rétro 5",
-    
+
         "description": "Jeu vidéo des années 80 numéro 5.",
-    
+
         "date": "2024-10-28T16:09:00.000Z",
-    
+
         "value": 220,
-    
+
         "quantity": 3,
-    
+
         "collection": 13
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 46,
-    
+
     "fields": {
-    
+
         "title": "Maquette de Collection 1",
-    
+
         "description": "Maquette détaillée d'un avion numéro 1.",
-    
+
         "date": "2024-10-28T16:10:00.000Z",
-    
+
         "value": 1000,
-    
+
         "quantity": 1,
-    
+
         "collection": 14
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 47,
-    
+
     "fields": {
-    
+
         "title": "Maquette de Collection 2",
-    
+
         "description": "Maquette détaillée d'une voiture numéro 2.",
-    
+
         "date": "2024-10-28T16:11:00.000Z",
-    
+
         "value": 1200,
-    
+
         "quantity": 1,
-    
+
         "collection": 14
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 48,
-    
+
     "fields": {
-    
+
         "title": "Maquette de Collection 3",
-    
+
         "description": "Maquette détaillée d'un bateau numéro 3.",
-    
+
         "date": "2024-10-28T16:12:00.000Z",
-    
+
         "value": 900,
-    
+
         "quantity": 2,
-    
+
         "collection": 14
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 49,
-    
+
     "fields": {
-    
+
         "title": "Maquette de Collection 4",
-    
+
         "description": "Maquette détaillée d'une moto numéro 4.",
-    
+
         "date": "2024-10-28T16:13:00.000Z",
-    
+
         "value": 1100,
-    
+
         "quantity": 1,
-    
+
         "collection": 14
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 50,
-    
+
     "fields": {
-    
+
         "title": "Maquette de Collection 5",
-    
+
         "description": "Maquette détaillée d'un train numéro 5.",
-    
+
         "date": "2024-10-28T16:14:00.000Z",
-    
+
         "value": 1300,
-    
+
         "quantity": 1,
-    
+
         "collection": 14
-    
+
     }
-    
+
     },
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 51,
-    
+
     "fields": {
-    
+
         "title": "Vinyle Rare 1",
-    
+
         "description": "Vinyle classique et rock numéro 1.",
-    
+
         "date": "2024-10-28T16:15:00.000Z",
-    
+
         "value": 100,
-    
+
         "quantity": 1,
-    
+
         "collection": 10
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 52,
-    
+
     "fields": {
-    
+
         "title": "Vinyle Rare 2",
-    
+
         "description": "Vinyle classique et rock numéro 2.",
-    
+
         "date": "2024-10-28T16:16:00.000Z",
-    
+
         "value": 120,
-    
+
         "quantity": 2,
-    
+
         "collection": 10
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 53,
-    
+
     "fields": {
-    
+
         "title": "Vinyle Rare 3",
-    
+
         "description": "Vinyle classique et rock numéro 3.",
-    
+
         "date": "2024-10-28T16:17:00.000Z",
-    
+
         "value": 150,
-    
+
         "quantity": 3,
-    
+
         "collection": 10
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 54,
-    
+
     "fields": {
-    
+
         "title": "Vinyle Rare 4",
-    
+
         "description": "Vinyle classique et rock numéro 4.",
-    
+
         "date": "2024-10-28T16:18:00.000Z",
-    
+
         "value": 180,
-    
+
         "quantity": 4,
-    
+
         "collection": 10
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 55,
-    
+
     "fields": {
-    
+
         "title": "Vinyle Rare 5",
-    
+
         "description": "Vinyle classique et rock numéro 5.",
-    
+
         "date": "2024-10-28T16:19:00.000Z",
-    
+
         "value": 200,
-    
+
         "quantity": 5,
-    
+
         "collection": 10
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 56,
-    
+
     "fields": {
-    
+
         "title": "Figurine Populaire 1",
-    
+
         "description": "Figurine inspirée de films et séries numéro 1.",
-    
+
         "date": "2024-10-28T16:20:00.000Z",
-    
+
         "value": 50,
-    
+
         "quantity": 10,
-    
+
         "collection": 11
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 57,
-    
+
     "fields": {
-    
+
         "title": "Figurine Populaire 2",
-    
+
         "description": "Figurine inspirée de films et séries numéro 2.",
-    
+
         "date": "2024-10-28T16:21:00.000Z",
-    
+
         "value": 60,
-    
+
         "quantity": 8,
-    
+
         "collection": 11
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 58,
-    
+
     "fields": {
-    
+
         "title": "Figurine Populaire 3",
-    
+
         "description": "Figurine inspirée de films et séries numéro 3.",
-    
+
         "date": "2024-10-28T16:22:00.000Z",
-    
+
         "value": 70,
-    
+
         "quantity": 6,
-    
+
         "collection": 11
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 59,
-    
+
     "fields": {
-    
+
         "title": "Figurine Populaire 4",
-    
+
         "description": "Figurine inspirée de films et séries numéro 4.",
-    
+
         "date": "2024-10-28T16:23:00.000Z",
-    
+
         "value": 80,
-    
+
         "quantity": 4,
-    
+
         "collection": 11
-    
+
     }
-    
+
     },
-    
+
     {
-    
+
     "model": "collec_management.element",
-    
+
     "pk": 60,
-    
+
     "fields": {
-    
+
         "title": "Figurine Populaire 5",
-    
+
         "description": "Figurine inspirée de films et séries numéro 5.",
-    
+
         "date": "2024-10-28T16:24:00.000Z",
-    
+
         "value": 90,
-    
+
         "quantity": 2,
-    
+
         "collection": 11
-    
+
     }
-    
+
     }
-    
+
     ]
-    

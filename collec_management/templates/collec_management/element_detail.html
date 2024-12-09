@@ -3,11 +3,11 @@
     {% block title %} {{elm.title}} {% endblock %}
 
 {% block content %}
-    <p>Date : {{elm.date}}</p>
-    <p>Collection : <a href="{% url 'collection' elm.collection.id %}">{{elm.collection.title}}</a></p>
-    
-    <p>Description :{{elm.description}}</p>
-    <p>Valeur : {{elm.value}}</p>
-    <p>Quantité : {{elm.quantity}}</p>
+    <p><b>Date :</b> {{elm.date}}</p>
+    <p><b>Collection :</b> <a href="{% url 'collection' elm.collection.id %}">{{elm.collection.title}}</a></p>
+
+    <p><b>Description :</b> {{elm.description}}</p>
+    <p><b>Valeur :</b> {{elm.value}}</p>
+    <p><b>Quantité :</b> {{elm.quantity}}</p>
 
 {% endblock %}

@@ -11,7 +11,8 @@ def about(request):
 @login_required
 def collection(request ,id) :
     collectionInexistant= get_object_or_404(Collec , id=id, created_by=request.user)
-    return render(request ,'collec_management/collection_detail.html', {'collectionInexistant' : collectionInexistant})
+    elements = Element.objects.filter(collection=collectionInexistant)
+    return render(request ,'collec_management/collection_detail.html', {'collectionInexistant' : collectionInexistant, 'elements': elements})
 
 @login_required
 def new( request ) :
@@ -19,6 +20,7 @@ def new( request ) :
     form=CollecForm(request.POST)
     if form.is_valid () :
        collec=form.save(commit = False )
+       collec.created_by = request.user
        collec.save () # Sauvegarde en base de donnees
        return HttpResponseRedirect(reverse('collection' ,args=[collec.id] ))
  else :
@@ -76,12 +78,17 @@ def add( request ) :
     form=ElementForm(request.POST)
     if form.is_valid () :
        element=form.save(commit = False )
+       element.created_by = request.user
        element.save () # Sauvegarde en base de donnees
        return HttpResponseRedirect(reverse('element' ,args=[element.id] ))
  else :
     form = ElementForm() # Formulaire vide
+    form.fields["collection"].queryset=Collec.objects.filter(created_by=request.user)
+
  return render(request,"collec_management/formulaireAdd.html" ,
                {"form" :form })
+
+@login_required
 def element(request ,id) :
     elm = get_object_or_404(Element , id=id, created_by=request.user)
     return render(request ,'collec_management/element_detail.html', {'elm' : elm})

@@ -9,23 +9,38 @@
                 <a class="nav-link" href="{% url 'about' %}">&Agrave; propos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'new' %}">nouveau</a>
+                <a class="nav-link" href="{% url 'new' %}">Créer une nouvelle collection</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'all' %}">les collections</a>
+                <a class="nav-link" href="{% url 'all' %}">Les collections</a>
             </li>
         </ul>
+
+        {% autoescape off %}{% bootstrap_messages %}{% endautoescape %}
+
+        <hr>
+          <br>
+        {% block content %}
+          {% if user.is_authenticated %}
+              Bienvenue {{ user.username }}!
+              {% else %}
+              
+            {% endif %}
+        {% endblock %}
+
+        <hr>
+        <br>
         {% if user.is_authenticated %}
-            Bienvenue {{ user.username }}!
             <form action="{% url 'logout' %}" method="post">
             {% csrf_token %}
             <button type="submit">Log Out</button>
             </form>
             {% else %}
-            <p>Vous etes pas connecter</p>
-            <a href="{% url 'login' %}">Log In</a>
+
+            {% if "login" not in request.get_full_path %}
+              <p>Vous n'êtes pas connecter</p>
+              <a href="{% url 'login' %}">Log In</a>
+            {% endif %}
         {% endif %}
-        {% autoescape off %}{% bootstrap_messages %}{% endautoescape %}
-        {% block content %}{% endblock %}
     </div>
 {% endblock %}
